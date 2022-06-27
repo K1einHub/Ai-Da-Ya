@@ -1,0 +1,65 @@
+body {
+    margin: 0%;
+    width: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header {
+    height: 80px;
+    width: 100%;
+    box-shadow: 0px 0px 15px rgb(179, 179, 179);
+}
+.logo {
+    padding-top: 0.5%;
+}
+ul {
+    list-style-type: none;
+}
+.block-reviews {
+    width: 20%;
+    border: 2px solid #ccc;
+    background-color: #eee;
+    border-radius: 5px;
+    padding: 8px;
+    margin: 16px auto;
+}
+.parent {
+    display: flex;
+    flex-wrap: wrap;
+}
+/*   Наши преимущества   */
+.iconblock-5 {
+    position: relative;
+    margin:60px 0 20px 0;
+    border: 1px solid #C5C5C5;
+    transition: transform 300ms ease, box-shadow 300ms ease;
+    text-align:center;
+}
+.iconblock-5 .icon {
+    display: block;
+    position: absolute;
+    left: 50%;
+    width: 80px;
+    transform: translate(-50%, -50%); 
+}
+.iconblock-5 .icon i,
+.iconblock-5 .icon img
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 32px;
+    transform: translate(-50%, -50%); 
+    color: #337AB7;
+    width: 150px;
+    height: 100px;
+}  
+.iconblock-5 h3 {
+    transition: all 0.7s ease 0s;
+    color: #ec7d14;
+    font-size:20px;
+    margin:50px 0 10px 0;
+}
+.iconblock-5:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 7px 10px 1px rgba(84, 84, 84, 0.5);         
+}
